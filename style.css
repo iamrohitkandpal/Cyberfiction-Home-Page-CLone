@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: transparent;
+    z-index: 100;
+    padding: 0 1.5vw;
+}
+.nav>h3{
+    font-weight: 500;
+    font-size: 1.35vw;
+    letter-spacing: 1px;
+}
+#other{
+    display: flex;
+    align-items: center;
+    font-size: 0.85vw;
+    gap: 10px;
+}
+#other>h4{
+    font-weight: 500;
+}
+.box{
+    padding: 0.5vw 0.95vw;
+    border-radius: 50px;
+    background-color: black;
+    word-spacing: 5px;
+}
+.box>h4{
+    color: white;
+    font-weight: 500;
+}
+.page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f1;
+}
+.page>h3{
+    position: absolute;
+    top:58%;
+    font-family: gilroy;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    line-height: 1.5;
+    left: 10%;
+}
+.page>h4{
+    position: absolute;
+    text-align: right;
+    top: 58.25%;
+    right: 9.5%;
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 1vw;
+    color: rgb(85, 85, 85);
+    line-height: 1.6;
+    word-spacing: -1px;
+    letter-spacing: -1.5px;
+}
+.page>h5{
+    position: absolute;
+    text-align: right;
+    top: 67%;
+    right: 9.5%;
+    font-family: gilroy;
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    -webkit-text-stroke: 1px rgb(85, 85, 85);
+    font-size: 0.95vw;
+}
+
+
+.page-1{position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f1;
+}
+.page-1>.right-text{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+}
+.page-1>.right-text>h3{
+    font-weight: 400;
+    color: #7c7c7c;
+    margin-bottom: 1.5vw;
+}
+.page-1>.right-text>h1{
+    line-height: 1.2;
+    font-size: 2.65vw;
+    font-weight: 500;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 4px black;
+}
+.page-1>.left-text{
+    position: absolute;
+    top: 49%;
+    right: 10%;
+}
+.page-1>.left-text>h3{
+    font-weight: 400;
+    color: #7c7c7c;
+    text-align: right;
+    margin-top: 1.5vw;
+}
+.page-1>.left-text>h1{
+    line-height: 1.2;
+    font-size: 2.65vw;
+    text-align: right;
+    font-weight: 500;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 4px black;
+}
+
+
+.page-2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f1;
+}
+.page-2>#text1{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+}
+.page-2>#text1>h3{
+    font-weight: 400;
+    color: #7c7c7c;
+    margin-bottom: 1.5vw;
+}
+.page-2>#text1>h1{
+    line-height: 1.3;
+    font-size: 4vw;
+    font-weight: 500;
+    letter-spacing: 8px;
+    -webkit-text-stroke: 7px black;
+}
+.page-2>#text2>p{
+    position: absolute;
+    text-align: right;
+    top: 53.5%;
+    right: 9.5%;
+    font-family: gilroy;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    line-height: 1.35;
+}
+.page-2>#text2>h4{
+    position: absolute;
+    text-align: right;
+    font-family: gilroy;
+    top: 67.5%;
+    right: 9.5%;
+    -webkit-text-stroke: 0.25px black;
+    font-weight: 400;
+    font-size: 0.95vw;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    word-spacing: -1px;
+    letter-spacing: -1.5px;
+}
+
+
+.page-3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f1;
+}
+.page-3>#text-1{
+    position: absolute;
+    top: 21%;
+    left: 10%;
+}
+.page-3>#text-1>p{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 0.9vw;
+    color: rgb(85, 85, 85);
+    line-height: 1.35;
+}
+.page-3>#text-1>h4{
+    margin-top: 0.75vw;
+    font-family: gilroy;
+    -webkit-text-stroke: 0.15px black;
+    font-weight: 400;
+    font-size: 1vw;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+}
+.page-3>#text-2{
+    position: absolute;
+    top: 40%;
+    z-index: 1000;
+    right: 9%;
+}
+.page-3>#text-2>h3{
+    font-weight: 400;
+    text-align: right;
+    color: #7c7c7c;
+    margin-bottom: 1.5vw;
+}
+.page-3>#text-2>h1{
+    line-height: 1.3;
+    text-align: right;
+    font-size: 4vw;
+    font-weight: 500;
+    letter-spacing: 8px;
+    -webkit-text-stroke: 7px black;
+}
+
+
+
+canvas{
+    position: relative;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loop{
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    top: 28%;
+    z-index: 10;
+    font-size: 6vw;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    font-family: gilroy;
+}
+.loop>h1{
+    font-weight: 500;
+    margin-right: 2vw;
+    animation: anime 15s infinite linear;
+}
+.loop>h1>span{
+    -webkit-text-stroke: 1.2px black;
+    color: transparent;
+}
+
+@keyframes anime {
+    0%{
+        transform: translateX(0.65%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
